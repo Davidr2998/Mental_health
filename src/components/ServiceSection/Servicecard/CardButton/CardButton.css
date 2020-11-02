@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-readmore {
+  position: relative;
+  width: 90px;
+  height: 40px;
+  background-color: #0096c7;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: normal;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.o-button-readmore:hover {
+  background-color: #007399;
+}
