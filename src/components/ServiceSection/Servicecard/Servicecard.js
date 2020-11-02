@@ -6,15 +6,13 @@ import CardTitle from "./CardTitle/CardTitle";
 import CardImage from "./CardImage/CardImage";
 
 const Servicecard = (props) => {
-  const { image, title, description } = props;
+  const { image, title, description, btntxt } = props;
   return (
     <div className="o-card-container">
       <CardImage image={image} />
       <CardTitle title={title} />
       <CardDescription description={description} />
-      <div className="o-button-container">
-        <CardButton />
-      </div>
+      <CardButton text={btntxt} />
     </div>
   );
 };

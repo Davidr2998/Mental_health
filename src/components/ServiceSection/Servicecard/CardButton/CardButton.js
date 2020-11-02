@@ -1,10 +1,11 @@
 import React from "react";
 import "./CardButton.css";
 
-const CardButton = () => {
+const CardButton = (props) => {
+  const { text } = props;
   return (
     <div>
-      <button className="o-button-readmore">Conoce más</button>
+      <button className="o-button-readmore">{text}</button>
     </div>
   );
 };
