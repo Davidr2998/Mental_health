@@ -1,0 +1,16 @@
+.o-button {
+  width: 120px;
+  height: 35px;
+  border-radius: 1rem;
+  background: #3498db;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+}
+
+.o-button:hover {
+  background: #2774a7;
+}

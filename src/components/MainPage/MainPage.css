@@ -1,0 +1,19 @@
+.o-mp-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.o-mp-hero-container {
+  margin: 100px 0 20px 0;
+}
+
+.o-mp-services-container {
+  margin: 100px 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .o-mp-container {
+    padding: 0;
+  }
+}

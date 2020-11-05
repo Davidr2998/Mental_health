@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./ServiceSection.css";
 import Servicecard from "./Servicecard/Servicecard";
 import WhiteServicecard from "./Servicecard/WhiteServicecard";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import SectionTitle from "../../SectionTitle/SectionTitle";
 
 class ServiceSection extends Component {
   render() {

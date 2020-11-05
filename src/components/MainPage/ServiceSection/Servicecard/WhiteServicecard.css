@@ -1,11 +1,12 @@
-.o-card-container {
+.o-white-card-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #e7f7ff;
+  background-color: transparent;
   width: 300px;
   border-radius: 30px;
   margin: 30px;
   padding: 30px 20px;
+  text-align: center;
 }
