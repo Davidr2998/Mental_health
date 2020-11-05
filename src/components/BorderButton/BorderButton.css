@@ -1,0 +1,19 @@
+.o-border-button {
+  width: 120px;
+  height: 35px;
+  border-radius: 1rem;
+  background: transparent;
+  border: 1px solid #3498db;
+  color: #3498db;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+}
+
+.o-border-button:hover {
+  background: #3498db;
+  color: white;
+  transition: 0.3s ease-in-out;
+  border: none;
+}

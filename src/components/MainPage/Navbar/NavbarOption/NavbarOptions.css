@@ -1,0 +1,9 @@
+.o-option-container {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.o-option-container:hover {
+  font-weight: bold;
+}
