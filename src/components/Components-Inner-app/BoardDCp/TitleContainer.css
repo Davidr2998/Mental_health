@@ -1,0 +1,5 @@
+.o-title-container{
+    display: flex;
+    justify-content: flex-start;
+    color: #023E8A;
+}

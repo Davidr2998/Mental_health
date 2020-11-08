@@ -1,0 +1,16 @@
+.o-big-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+.o-message-container{
+    height: 10vh;
+    width: 45vw;
+    background-color:#E7F7FF;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 1.5rem;
+    border-radius: 30px;
+}
+
