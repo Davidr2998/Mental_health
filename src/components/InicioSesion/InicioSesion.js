@@ -14,7 +14,7 @@ function InicioSesion() {
             <Title tipo="Bienvenido a Rapport"></Title>
             <TextField title="Ingresa tu correo eléctronico"></TextField>
             <TextField title="Contraseña"></TextField>
-            <Button text="Iniciar Sesión"></Button>
+            <Button text="Iniciar Sesión" url="Dashboard"></Button>
             <hr></hr>
             <p className="o-login-label">¿No tienes una cuenta?</p>
             <BorderButton text="Regístrate" url="Registro"></BorderButton>
