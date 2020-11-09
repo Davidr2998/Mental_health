@@ -3,7 +3,6 @@ import Title from "../Title/Title";
 import TextField from "../TextField/TextField";
 import Button from "../Button/Button";
 import "../Registro/Registro.css";
-import BorderButton from "../BorderButton/BorderButton";
 
 function Registro() {
   return (
@@ -11,14 +10,14 @@ function Registro() {
       <div className="o-register-container">
         <div className="o-register-left-panel">
           <div className="o-register-form-container">
-            <Title tipo="Regístrate en Rapport"></Title>
-            <TextField title="Ingresa tu correo eléctronico"></TextField>
-            <TextField title="Ingresa tu contraseña"></TextField>
-            <TextField title="Confirma tu contraseña"></TextField>
+            <Title tipo="Regístrate en Rapport" />
+            <TextField title="Ingresa tu correo eléctronico" />
+            <TextField title="Ingresa tu contraseña" />
+            <TextField title="Confirma tu contraseña" />
             <Button text="Regístrate"></Button>
             <hr />
             <p className="o-register-label">¿Ya tienes una cuenta?</p>
-            <BorderButton text="Iniciar Sesión" url="Ingreso" />
+            <Button text="Iniciar Sesión" url="Ingreso" border />
           </div>
         </div>
         <div className="o-register-right-panel">

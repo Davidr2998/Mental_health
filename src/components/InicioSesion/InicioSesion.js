@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../Title/Title";
 import TextField from "../TextField/TextField";
 import Button from "../Button/Button";
-import BorderButton from "../BorderButton/BorderButton";
 import "./InicioSesion.css";
 
 function InicioSesion() {
@@ -17,7 +16,7 @@ function InicioSesion() {
             <Button text="Iniciar Sesión"></Button>
             <hr></hr>
             <p className="o-login-label">¿No tienes una cuenta?</p>
-            <BorderButton text="Regístrate" url="Registro"></BorderButton>
+            <Button text="Regístrate" url="Registro" border />
           </div>
         </div>
         <div className="o-login-right-panel">

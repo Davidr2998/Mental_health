@@ -12,12 +12,23 @@
   padding: 5px 1.5rem;
 }
 
-.o-nav-options {
+.o-nav-options ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 20rem;
   height: 100%;
+  list-style: none;
+}
+
+.o-nav-options a {
+  text-decoration: none;
+  color: black;
+}
+
+.o-nav-options a:hover {
+  font-weight: bold;
+  transition: 0.1s ease-in;
 }
 
 .o-nav-actions {
@@ -26,6 +37,31 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.o-profile-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.o-profile-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.o-profile-img-container {
+  display: flex;
+  justify-content: center;
+}
+.o-profile-container a:hover {
+  font-weight: bold;
+  transition: 0.1s ease-in;
+}
+
+.o-profile-img-container img {
+  width: 50%;
+  border-radius: 50%;
 }
 
 /* Extra small devices (phones, 600px and down) */

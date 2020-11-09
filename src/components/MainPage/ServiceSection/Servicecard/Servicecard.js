@@ -5,10 +5,9 @@ import CardDescription from "./CardDescription/CardDescription";
 import CardTitle from "./CardTitle/CardTitle";
 import CardImage from "./CardImage/CardImage";
 
-const Servicecard = (props) => {
-  const { image, title, description, btntxt } = props;
+const Servicecard = ({ image, title, description, btntxt, background }) => {
   return (
-    <div className="o-card-container">
+    <div className={background ? "o-card-container" : "o-white-card-container"}>
       <CardImage image={image} />
       <CardTitle title={title} />
       <CardDescription description={description} />

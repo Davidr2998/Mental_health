@@ -1,11 +1,13 @@
 import React from "react";
 import "./Button.css";
 
-const Button = ({ text, url }) => {
+const Button = ({ text, url, border }) => {
   return (
     <div>
       <a href={url}>
-        <button className="o-button">{text}</button>
+        <button className={border ? "o-border-button" : "o-button"}>
+          {text}
+        </button>
       </a>
     </div>
   );
