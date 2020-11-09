@@ -1,0 +1,18 @@
+.o-big-containerCom{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.o-message-containerCom{
+    height: 10vh;
+    width: 45vw;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 1.5rem;
+    border-radius: 30px;
+}
+.o-text-adjust{
+    padding-left: .5rem;
+}

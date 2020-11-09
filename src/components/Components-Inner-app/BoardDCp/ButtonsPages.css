@@ -1,0 +1,32 @@
+.o-buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.o-buttonPages{
+    width: 12vw;
+    height: 7vh;
+    margin: 0rem;
+    border-radius: 0px;
+    border-width: 1px;
+    color:black;
+    background-color: white;
+  
+}
+
+.o-bt-left{
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.o-bt-right{
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+
+
+.o-buttonPages:hover{
+    background-color:#023E8A;
+    color: white;
+}

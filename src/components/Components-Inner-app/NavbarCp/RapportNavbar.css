@@ -1,0 +1,14 @@
+.o-navabar{
+    height: 10vh;
+    background-color: #242526;
+    padding: 0 1rem;
+    border-bottom: 1px solid #474a4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.o-nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
