@@ -1,14 +1,17 @@
-.o-icon{
-    width: 3.5rem;
-    height: 3.5rem;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.o-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.o-icon:hover{
-    background-color: rgb(211, 211, 211);
+.o-icon img {
+  width: 100%;
 }
 
+.o-icon:hover {
+  background-color: rgb(211, 211, 211);
+}

@@ -1,18 +1,22 @@
-.o-icon-logo{
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2.5rem;
-    flex-wrap: wrap;
+.o-icon-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2.5rem;
+  flex-wrap: wrap;
 }
 
-.o-items-container-logos{
-    display: flex;
-    color: #0096C7;
-    font-size: smaller;
-    flex-wrap: wrap;
-    padding-top: .4rem;
+.o-icon-logo img {
+  width: 100%;
+}
+
+.o-items-container-logos {
+  display: flex;
+  color: #0096c7;
+  font-size: smaller;
+  flex-wrap: wrap;
+  padding-top: 0.4rem;
 }
