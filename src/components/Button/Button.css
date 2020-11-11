@@ -9,6 +9,7 @@
   font-weight: normal;
   cursor: pointer;
   outline: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .o-button:hover {
@@ -26,6 +27,7 @@
   font-weight: normal;
   cursor: pointer;
   outline: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .o-border-button:hover {
@@ -33,4 +35,65 @@
   color: white;
   transition: 0.3s ease-in-out;
   border: none;
+}
+
+.o-button-panel-center-button {
+  width: 200px;
+  height: 55px;
+  background: #fff;
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+  border-top: none;
+  border-bottom: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-panel-center-button:hover {
+  background-color: #023e8a;
+  color: white;
+}
+
+.o-button-panel-right-button {
+  width: 200px;
+  height: 55px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: #fff;
+  border: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-panel-right-button:hover {
+  background-color: #023e8a;
+  color: white;
+}
+
+.o-button-panel-left-button {
+  width: 200px;
+  height: 55px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background: #fff;
+  border: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-panel-left-button:hover {
+  background-color: #023e8a;
+  color: white;
 }

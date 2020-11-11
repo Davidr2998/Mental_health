@@ -14,10 +14,10 @@ function Registro() {
             <TextField title="Ingresa tu correo eléctronico" />
             <TextField title="Ingresa tu contraseña" />
             <TextField title="Confirma tu contraseña" />
-            <Button text="Regístrate"></Button>
+            <Button text="Regístrate" panel={false} />
             <hr />
             <p className="o-register-label">¿Ya tienes una cuenta?</p>
-            <Button text="Iniciar Sesión" url="Ingreso" border />
+            <Button text="Iniciar Sesión" url="Ingreso" border panel={false} />
           </div>
         </div>
         <div className="o-register-right-panel">

@@ -10,13 +10,13 @@ function InicioSesion() {
       <div className="o-login-container">
         <div className="o-login-left-panel">
           <div className="o-form-container">
-            <Title tipo="Bienvenido a Rapport"></Title>
-            <TextField title="Ingresa tu correo eléctronico"></TextField>
-            <TextField title="Contraseña"></TextField>
-            <Button text="Iniciar Sesión"></Button>
+            <Title tipo="Bienvenido a Rapport" />
+            <TextField title="Ingresa tu correo eléctronico" />
+            <TextField title="Contraseña" />
+            <Button text="Iniciar Sesión" url="Dashboard" panel={false} />
             <hr></hr>
             <p className="o-login-label">¿No tienes una cuenta?</p>
-            <Button text="Regístrate" url="Registro" border />
+            <Button text="Regístrate" url="Registro" border panel={false} />
           </div>
         </div>
         <div className="o-login-right-panel">

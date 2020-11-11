@@ -8,7 +8,7 @@ import "./MainPage.css";
 const MainPage = () => {
   return (
     <div className="o-mp-container">
-      <Navbar isLoggedIn={false} />
+      <Navbar isLoggedIn={false} username="Juan David Rojas" />
       <div className="o-mp-hero-container">
         <Hero />
       </div>

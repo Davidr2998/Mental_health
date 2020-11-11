@@ -1,0 +1,17 @@
+.o-optcontainer-main-container {
+  background-color: #e7f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px 0;
+  padding: 25px;
+  border-radius: 1.5rem;
+}
+
+.o-optcontainer-body {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}

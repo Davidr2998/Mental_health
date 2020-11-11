@@ -1,0 +1,88 @@
+.o-welcome-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e7f7ff;
+  color: #023e8a;
+  padding: 50px 0;
+}
+
+.o-welcome-message-usericon {
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+}
+
+.o-welcome-message-body {
+  margin: 0 100px;
+}
+
+.o-welcome-message-body h1 {
+  font-size: 1.85rem;
+  margin: 0;
+}
+
+.o-welcome-message-body p {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .o-welcome-message-usericon {
+    display: none;
+  }
+
+  .o-welcome-message-body {
+    margin: 0 20px;
+  }
+
+  .o-welcome-message-body h1 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .o-welcome-message-body p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .o-welcome-message-usericon {
+    display: none;
+  }
+
+  .o-welcome-message-body {
+    margin: 0 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 761px) {
+  .o-welcome-message-usericon {
+    display: block;
+  }
+
+  .o-welcome-message-body {
+    margin: 0 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .o-welcome-message-body {
+    margin: 0 100px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .o-welcome-message-body {
+    margin: 0 100px;
+  }
+}

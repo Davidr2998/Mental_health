@@ -1,10 +1,11 @@
 import React from "react";
 import "./SectionTitle.css";
 
-const SectionTitle = (props) => {
-  const { sectionTitle } = props;
+const SectionTitle = ({ sectionTitle, panel }) => {
   return (
-    <div className="o-section-title-container">
+    <div
+      className={panel ? "o-section-panel-title" : "o-section-title-container"}
+    >
       <h2>{sectionTitle}</h2>
     </div>
   );

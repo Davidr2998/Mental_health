@@ -1,13 +1,13 @@
 import React from "react";
 import "../TextField/TextField.css";
 
-const TexField = ({ title }) => {
+const TextField = ({ title }) => {
   return (
     <div className={title ? "o-textfield-container" : "o-untitled-textfield"}>
-      {title === true && <h4 className="o-subtitle-text">{title}</h4>}
+      {title && <h4 className="o-subtitle-text">{title}</h4>}
       <input type="text" className="o-text-field" />
     </div>
   );
 };
 
-export default TexField;
+export default TextField;
