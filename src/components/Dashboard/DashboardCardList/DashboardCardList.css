@@ -3,6 +3,7 @@
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
+  padding: 0%;
 }
 
 .o-cardlist-container li {
