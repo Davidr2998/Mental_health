@@ -1,10 +1,13 @@
 import React from "react";
 import "./CardTitle.css";
 
-const CardTitle = (props) => {
-  const { title } = props;
+const CardTitle = ({ title, professional }) => {
   return (
-    <div className="o-title-container">
+    <div
+      className={
+        professional ? "o-dashboard-professional-name" : "o-title-container"
+      }
+    >
       <h3>{title}</h3>
     </div>
   );

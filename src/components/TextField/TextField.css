@@ -18,3 +18,9 @@
   font-weight: normal;
   margin: 0 0 0.8rem 0;
 }
+
+.o-untitled-textfield {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}

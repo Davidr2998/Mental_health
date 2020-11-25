@@ -1,0 +1,11 @@
+.o-cardlist-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0%;
+}
+
+.o-cardlist-container li {
+  margin: 0 10px;
+}
