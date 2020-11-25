@@ -9,6 +9,7 @@ const Button = ({
   panelCenter,
   panelRight,
   panelLeft,
+  onClick,
 }) => {
   return (
     <div>
@@ -22,19 +23,25 @@ const Button = ({
 
       {panelCenter === true && (
         <a href={url}>
-          <button className={"o-button-panel-center-button"}>{text}</button>
+          <button onClick={onClick} className={"o-button-panel-center-button"}>
+            {text}
+          </button>
         </a>
       )}
 
       {panelRight === true && (
         <a href={url}>
-          <button className={"o-button-panel-right-button"}>{text}</button>
+          <button onClick={onClick} className={"o-button-panel-right-button"}>
+            {text}
+          </button>
         </a>
       )}
 
       {panelLeft === true && (
         <a href={url}>
-          <button className={"o-button-panel-left-button"}>{text}</button>
+          <button onClick={onClick} className={"o-button-panel-left-button"}>
+            {text}
+          </button>
         </a>
       )}
     </div>

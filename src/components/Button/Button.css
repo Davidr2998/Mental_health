@@ -97,3 +97,82 @@
   background-color: #023e8a;
   color: white;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .o-button-panel-left-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-center-button {
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+  }
+
+  .o-button-panel-right-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .o-button-panel-left-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-center-button {
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+  }
+
+  .o-button-panel-right-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .o-button-panel-left-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-center-button {
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-right-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .o-button-panel-center-button {
+    border-left: 1px solid #212121;
+    border-right: 1px solid #212121;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .o-button-panel-left-button {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: none;
+  }
+
+  .o-button-panel-right-button {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: none;
+  }
+}

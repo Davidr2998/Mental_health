@@ -1,11 +1,16 @@
 import React from "react";
 import "./CardButton.css";
 
-const CardButton = (props) => {
-  const { text } = props;
+const CardButton = ({ text, professional }) => {
   return (
     <div>
-      <button className="o-button-readmore">{text}</button>
+      <button
+        className={
+          professional ? "o-button-dashboard-contact" : "o-button-readmore"
+        }
+      >
+        {text}
+      </button>
     </div>
   );
 };

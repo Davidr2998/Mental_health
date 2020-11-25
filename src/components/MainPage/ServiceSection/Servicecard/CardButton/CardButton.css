@@ -21,3 +21,16 @@ body {
 .o-button-readmore:hover {
   background-color: #007399;
 }
+
+.o-button-dashboard-contact {
+  width: 120px;
+  height: 30px;
+  font-size: 1rem;
+  background: #0096c7;
+  border-radius: 25px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: "Montserrat";
+}

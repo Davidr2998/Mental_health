@@ -9,7 +9,7 @@ const Dashboard = () => {
     <div className="o-dashboard-container">
       <Navbar isLoggedIn={true} username="Juan David Rojas" />
       <WelcomeMessage username="Juan David Rojas" />
-      <OptionContainer paneltitle="DIRECTORIO DE PROFESIONALES" />
+      <OptionContainer />
     </div>
   );
 };
