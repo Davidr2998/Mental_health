@@ -11,21 +11,18 @@ const OptionContainer = () => {
   const [Community, setCommunity] = useState(false);
 
   const changeToDirectory = () => {
-    console.log("Estamos en directory");
     setDirectory(!Directory);
     setAppointment(false);
     setCommunity(false);
   };
 
   const changeToAppointments = () => {
-    console.log("Estamos en citas");
     setAppointment(!Appointment);
     setDirectory(false);
     setCommunity(false);
   };
 
   const changeToCommunity = () => {
-    console.log("Estamos en comunidad");
     setCommunity(!Community);
     setAppointment(false);
     setDirectory(false);
@@ -61,6 +58,8 @@ const OptionContainer = () => {
           <DashboardCard
             professional="Juan David Rojas"
             img="/assets/img/prof.jpg"
+            text="Entrar"
+            appointment="12:00pm"
           />
         </div>
       )}
@@ -71,6 +70,7 @@ const OptionContainer = () => {
           <DashboardCard
             professional="Jhosua pachon"
             img="/assets/img/prof.jpg"
+            typeofcard="community"
           />
         </div>
       )}

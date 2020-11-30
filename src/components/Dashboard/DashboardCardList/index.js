@@ -29,7 +29,11 @@ const DashboardCardList = () => {
     <ul className="o-cardlist-container">
       {cards.map((card) => (
         <li key={card.id}>
-          <DashboardCard professional={card.professional} img={card.img} />
+          <DashboardCard
+            professional={card.professional}
+            img={card.img}
+            text="Contactar"
+          />
         </li>
       ))}
     </ul>
