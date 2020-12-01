@@ -5,22 +5,22 @@ import "./DashboardCardList.css";
 const DashboardCardList = () => {
   const cards = [
     {
-      id: new Date().getMilliseconds,
+      id: 1,
       professional: "Kevin Victoria Ortiz",
       img: "/assets/img/prof.jpg",
     },
     {
-      id: new Date().getMilliseconds,
+      id: 2,
       professional: "Juan David Rojas",
       img: "/assets/img/prof.jpg",
     },
     {
-      id: new Date().getMilliseconds,
+      id: 3,
       professional: "Manuel José Tovar",
       img: "/assets/img/prof.jpg",
     },
     {
-      id: new Date().getMilliseconds,
+      id: 4,
       professional: "Jhosua Pachon",
       img: "/assets/img/prof.jpg",
     },

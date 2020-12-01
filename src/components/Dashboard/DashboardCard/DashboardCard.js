@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import CardTitle from "../../MainPage/ServiceSection/Servicecard/CardTitle/CardTitle";
 import CardButton from "../../MainPage/ServiceSection/Servicecard/CardButton/CardButton";
 import "./DashboardCard.css";
@@ -13,12 +13,14 @@ const DashboardCard = ({
 }) => {
   const [info, setInfo] = useState([]);
 
-  useEffect(() => fecthApiData(), []);
-
-  const fecthApiData = async () => {
+  const fecthApiData = useCallback(async () => {
     const result = await axios.get("/rapportCommunity");
     setInfo(result.data.userTweet);
-  };
+  }, []);
+
+  useEffect(() => {
+    if (setInfo) fecthApiData();
+  }, [fecthApiData, setInfo]);
 
   return (
     <div className="o-dashboard-card-container">
