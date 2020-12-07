@@ -56,10 +56,10 @@ const OptionContainer = () => {
         <div className="o-optcontainer-body">
           <SectionTitle sectionTitle="MIS CITAS" panel />
           <DashboardCard
-            professional="Juan David Rojas"
+            professional="Jose Alvarez Henao"
             img="/assets/img/prof.jpg"
-            text="Entrar"
-            appointment="12:00pm"
+            text="Información"
+            appointment="5:00 PM"
           />
         </div>
       )}
