@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import AppTitle from "../../AppTitle/AppTitle";
 import Button from "../../Button/Button";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Navbar = ({ isLoggedIn, username }) => {
   return (
@@ -11,7 +12,7 @@ const Navbar = ({ isLoggedIn, username }) => {
         <div className="o-nav-options">
           <ul>
             <li>
-              <a href="#">Inicio</a>
+              <Link to="/">Inicio</Link>
             </li>
             {isLoggedIn === false && (
               <li>
