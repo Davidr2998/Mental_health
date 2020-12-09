@@ -57,9 +57,23 @@ const OptionContainer = () => {
           <SectionTitle sectionTitle="MIS CITAS" panel />
           <DashboardCard
             professional="Jose Alvarez Henao"
-            img="/assets/img/prof.jpg"
+            img="https://www.headshotsprague.com/wp-content/uploads/2019/07/Headshots_Prague-emotional-portrait-of-a-smiling-entrepreneur-1.jpg"
             text="Información"
             appointment="5:00 PM"
+          />
+
+          <DashboardCard
+            professional="Carlos Henao"
+            img="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-4.jpg"
+            text="Información"
+            appointment="12:30 PM"
+          />
+
+          <DashboardCard
+            professional="Andres Rodriguez"
+            img="https://ak.picdn.net/shutterstock/videos/21124222/thumb/10.jpg"
+            text="Información"
+            appointment="2:45 PM"
           />
         </div>
       )}

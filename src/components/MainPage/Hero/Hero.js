@@ -15,7 +15,10 @@ const Hero = () => {
             comunidad más grande profesionales dispuestos a ayudarte.
           </p>
           <div className="o-call-to-action">
-            <input type="text" name="" id="" />
+            <input
+              type="text"
+              placeholder="Escribe tu correo electronico para recibir novedades"
+            />
             <CardButton text="Enviar" />
           </div>
         </div>
