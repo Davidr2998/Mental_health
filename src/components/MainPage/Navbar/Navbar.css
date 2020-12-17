@@ -1,0 +1,129 @@
+.o-navbar-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.o-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 1.5rem;
+}
+
+.o-nav-options ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20rem;
+  height: 100%;
+  list-style: none;
+}
+
+.o-nav-options a {
+  text-decoration: none;
+  color: black;
+}
+
+.o-nav-options a:hover {
+  font-weight: bold;
+  transition: 0.1s ease-in;
+}
+
+.o-nav-actions {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.o-profile-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.o-profile-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.o-profile-img-container {
+  display: flex;
+  justify-content: center;
+}
+.o-profile-container a:hover {
+  font-weight: bold;
+  transition: 0.1s ease-in;
+}
+
+.o-profile-img-container img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .o-nav {
+    justify-content: center;
+  }
+  .o-nav-options a {
+    font-size: 20px;
+  }
+
+  .o-nav-actions button {
+    font-size: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .o-nav {
+    justify-content: center;
+  }
+  .o-nav-options a {
+    font-size: 20px;
+  }
+
+  .o-nav-actions button {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .o-nav {
+    justify-content: space-between;
+  }
+  .o-nav-options a {
+    font-size: 20px;
+  }
+
+  .o-nav-actions button {
+    font-size: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .o-nav-options a {
+    font-size: 18px;
+  }
+
+  .o-nav-actions button {
+    font-size: 18px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .o-nav-options a {
+    font-size: 1rem;
+  }
+
+  .o-nav-actions button {
+    font-size: 1rem;
+  }
+}

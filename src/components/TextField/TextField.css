@@ -1,0 +1,26 @@
+.o-textfield-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 25px 0;
+}
+
+.o-text-field {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 10px rgba(76, 78, 78, 0.23);
+  outline: none;
+  padding-left: 15px;
+}
+
+.o-subtitle-text {
+  font-weight: normal;
+  margin: 0 0 0.8rem 0;
+}
+
+.o-untitled-textfield {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}

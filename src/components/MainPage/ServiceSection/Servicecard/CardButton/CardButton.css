@@ -1,0 +1,36 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-readmore {
+  position: relative;
+  width: 90px;
+  height: 40px;
+  background-color: #0096c7;
+  border-radius: 15px;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: normal;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.o-button-readmore:hover {
+  background-color: #007399;
+}
+
+.o-button-dashboard-contact {
+  width: 120px;
+  height: 30px;
+  font-size: 1rem;
+  background: #0096c7;
+  border-radius: 25px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: "Montserrat";
+}

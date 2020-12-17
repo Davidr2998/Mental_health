@@ -1,0 +1,178 @@
+.o-button {
+  width: 120px;
+  height: 35px;
+  border-radius: 1rem;
+  background: #3498db;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button:hover {
+  background: #2774a7;
+}
+
+.o-border-button {
+  width: 120px;
+  height: 35px;
+  border-radius: 1rem;
+  background: transparent;
+  border: 1px solid #3498db;
+  color: #3498db;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-border-button:hover {
+  background: #3498db;
+  color: white;
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+
+.o-button-panel-center-button {
+  width: 200px;
+  height: 55px;
+  background: #fff;
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+  border-top: none;
+  border-bottom: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-panel-center-button:hover {
+  background-color: #023e8a;
+  color: white;
+}
+
+.o-button-panel-right-button {
+  width: 200px;
+  height: 55px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: #fff;
+  border: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-panel-right-button:hover {
+  background-color: #023e8a;
+  color: white;
+}
+
+.o-button-panel-left-button {
+  width: 200px;
+  height: 55px;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background: #fff;
+  border: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.o-button-panel-left-button:hover {
+  background-color: #023e8a;
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .o-button-panel-left-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-center-button {
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+  }
+
+  .o-button-panel-right-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .o-button-panel-left-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-center-button {
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+  }
+
+  .o-button-panel-right-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .o-button-panel-left-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-center-button {
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+
+  .o-button-panel-right-button {
+    border-radius: 0px;
+    border: 1px solid #ababab;
+    border: 1px solid #ababab;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .o-button-panel-center-button {
+    border-left: 1px solid #212121;
+    border-right: 1px solid #212121;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .o-button-panel-left-button {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: none;
+  }
+
+  .o-button-panel-right-button {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: none;
+  }
+}

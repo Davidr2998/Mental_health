@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos del contenedor principal
+se centra el panel en el centro de la pantalla */
+.o-login-main-container {
+  background-color: #e7f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Contenedor del login */
+.o-login-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 55%;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(76, 78, 78, 0.23);
+}
+
+/* Estilos del panel izquierdo */
+.o-login-left-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.o-form-container {
+  display: flex;
+  flex-direction: column;
+}
+/* Fin de los estilos del panel izquierdo */
+
+/* Estilos del panel derecho */
+.o-login-right-panel {
+  width: 50%;
+}
+
+/* Estilos de la imagen del panel derecho */
+.o-login-right-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* Estilos del texto para registrarse */
+.o-login-label {
+  margin: 20px 0;
+}
+
+/* Fin de los estilos del panel derecho */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .o-login-main-container {
+    background-color: white;
+  }
+
+  .o-login-container {
+    background: transparent;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .o-login-left-panel {
+    width: 100%;
+  }
+
+  .o-login-right-panel {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .o-login-main-container {
+    background-color: #eeeeee;
+  }
+
+  .o-login-container {
+    background: white;
+    width: 70%;
+  }
+
+  .o-login-left-panel {
+    width: 100%;
+  }
+
+  .o-login-right-panel {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .o-login-main-container {
+    background-image: url("https://news.blr.com/app/uploads/sites/3/2020/01/psychologist.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .o-login-container {
+    background: white;
+    width: 50%;
+  }
+
+  .o-login-left-panel {
+    width: 100%;
+  }
+
+  .o-login-right-panel {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .o-login-main-container {
+    background-color: #e7f7ff;
+    background-image: none;
+  }
+
+  .o-login-container {
+    width: 85%;
+  }
+
+  .o-login-left-panel {
+    width: 50%;
+  }
+
+  .o-login-right-panel {
+    display: block;
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .o-login-container {
+    background: white;
+    width: 85%;
+  }
+}
+
+/* For 1920 x 1080 and up */
+@media only screen and (min-width: 1400px) {
+  .o-login-container {
+    background: white;
+    width: 55%;
+  }
+}
