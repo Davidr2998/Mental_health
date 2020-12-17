@@ -1,14 +1,14 @@
-import React, {useState} from "react";
+import React from "react";
 import "./CardButton.css";
 
 const CardButton = ({ onClick, text, professional }) => {
- 
   return (
     <div>
       <button
         className={
           professional ? "o-button-dashboard-contact" : "o-button-readmore"
-        } onClick={onClick}
+        }
+        onClick={onClick}
       >
         {text}
       </button>

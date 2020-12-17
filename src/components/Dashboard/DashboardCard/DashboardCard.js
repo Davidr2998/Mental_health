@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import CardTitle from "../../MainPage/ServiceSection/Servicecard/CardTitle/CardTitle";
 import CardButton from "../../MainPage/ServiceSection/Servicecard/CardButton/CardButton";
 import "./DashboardCard.css";
@@ -67,14 +68,14 @@ const DashboardCard = ({
             <h3>Información de la cita</h3>
           </div>
           <div className="o-appointment-info">
-             <img
+            <img
               src="/assets/img/user.svg"
               className="o-icon"
               alt="Icono de calendario"
             />
             <h4 className="o-appointment-title">Psicólogo</h4>
-            </div>
-            <p>Jose Alvarez Henao</p>
+          </div>
+          <p>Jose Alvarez Henao</p>
           <div className="o-appointment-info">
             <img
               src="/assets/img/calendar.svg"
@@ -82,19 +83,25 @@ const DashboardCard = ({
               alt="Icono de calendario"
             />
             <h4 className="o-appointment-title">Fecha</h4>
-            </div>
-            <p>7 de Diciembre del 2020</p>
+          </div>
+          <p>7 de Diciembre del 2020</p>
           <div className="o-appointment-info">
             <img
               src="/assets/img/clock.svg"
               className="o-icon"
               alt="Icono de calendario"
             />
-            <h4 className="o-appointment-title">Hora</h4> 
+            <h4 className="o-appointment-title">Hora</h4>
           </div>
           <p>5:00 PM</p>
           <div className="o-btn-appointment">
-            <CardButton text="Ingresar"></CardButton>
+            <a
+              rel="noopener noreferrer"
+              href="https://meet.google.com/msx-wqrb-ezw"
+              target="_blank"
+            >
+              Ingresar
+            </a>
           </div>
         </Modal>
       )}
